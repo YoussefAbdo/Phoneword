@@ -1,0 +1,29 @@
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Phoneword.dll
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Phoneword.pdb
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.MainPage.xaml.g.cs
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.App.xaml.g.cs
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.dll
+c:\users\youssefabdo\documents\visual studio 2015\Projects\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.pdb
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Phoneword.dll
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Phoneword.pdb
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.dll
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Core.xml
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Platform.pdb
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Phoneword\Phoneword\Phoneword\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.MainPage.xaml.g.cs
+E:\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.App.xaml.g.cs
+E:\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.dll
+E:\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.pdb
+E:\Phoneword\Phoneword\Phoneword\obj\Debug\Phoneword.csprojResolveAssemblyReference.cache
