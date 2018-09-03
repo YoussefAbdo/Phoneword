@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+ <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>Sign in | Xamarin University</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/content/screen.css?v=ac2c6b3e8e9bb5181d30d815332c33dd" rel="stylesheet" />
+    <link type="text/css" href="/Content/css/jquery-ui.css" rel="stylesheet" />
+    <link type="text/css" href="/Content/css/magnific-popup.css" rel="stylesheet" />
+    <link href="/Content/css/AddCalEvent.css" rel="stylesheet">
+    <link href="/Content/toastr.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Content/font-awesome.min.css">
+    <!-- AddThisEvent -->
+
+    
+
+
+    <link href="/content/layouts/login.css?t=9/3/2018 2:17:00 PM" rel="stylesheet" type="text/css" />
+
+
+            <script src="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.css">
+</head>
+<body data-controller="account" data-action="login">
+
+    <!--MSFT Consent Banner-->
+
+        <div>
+            <div id='msccBanner' dir='ltr' data-site-name='store' data-mscc-version='0.4.0' data-nver='aspnet-2.0.1' data-sver='0.1.2' class='cc-banner' role='alert'><div class='cc-container'><svg class='cc-icon cc-v-center' x='0px' y='0px' viewBox='0 0 44 44' height='30px' fill='none' stroke='currentColor'><circle cx='22' cy='22' r='20' stroke-width='2'></circle><line x1='22' x2='22' y1='18' y2='33' stroke-width='3'></line><line x1='22' x2='22' y1='12' y2='15' stroke-width='3'></line></svg> <span class='cc-v-center cc-text'>This site uses cookies for analytics, personalized content and ads. By continuing to browse this site, you agree to this use.</span> <a href='https://go.microsoft.com/fwlink/?linkid=845480' aria-label='Learn more about Microsoft&#39;s Cookie Policy' id='msccLearnMore' class='cc-link cc-v-center cc-float-right' data-mscc-ic='false'>Learn more</a></div></div>
+        </div>
+
+    <div id="notificationDiv"></div>
+
+    
+
+<style>
+    .nav-home {
+        right: 21vw;
+        bottom: 0;
+        position: absolute;
+        width: 270px;
+    }
+        .nav-home a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 300;
+        }
+    @media all and (max-width: 1300px) {
+        .nav-home {
+            right: 25vw;
+        }
+    }
+    @media all and (max-width: 1170px) {
+        .nav-home {
+            right: 28vw;
+        }
+    }
+    @media all and (max-width: 1067px) {
+        .nav-home {
+            right: 30vw;
+        }
+    }
+    @media all and (max-width: 967px) {
+        .nav-home {
+            right: 33vw;
+        }
+    }
+</style>
+<div id="login-panel">
+    <div id="panel-left" class="hidden-xs">
+        <div class="logo-container">
+            <h1 class="xamarin logo">
+                <a href="/"><img src="/Images/Logo-White.png" class="img-responsive" alt="Xamarin University" /></a>
+            </h1>
+            <h2 class="login-splash-text">
+                Go mobile and stay ahead with interactive <br />mobile development training by Xamarin experts, <br />on your schedule.
+            </h2>
+        </div>
+        <h2 class="login-splash-text nav-home">
+            <a href="/">Navigate back to Xamarin University Home page.</a> <span class="glyphicon glyphicon-home"></span>
+        </h2>
+        <div id="login-img" class="animation-opacity">
+            <img src="/Images/bg.jpg" class="img-responsive invisible" />
+        </div>
+    </div>
+    <div id="panel-right">
+        
+
+<style>
+    a.no-underline {
+        text-decoration: none;
+        color: #1f6abb;
+    }
+</style>
+
+    <h4 class="login-header"><a class="no-underline" href="/account/loginmsa?returnUrl=%3Freferrer%3Delearning%26returnurl%3Dforms%2Fxam120%2F2-layouts%2Fexercise2%2Fimages%2Ffinished-lab.png&amp;referrer=elearning"><strong>Sign in</strong></a></h4>
+<div id="login-form">
+
+    <div class="col-xs-12 above-divider">
+        <!-- If the user is not authenticated, display the sign-in button -->
+        <a role="button" class="btn-bg-dark form-group" href="/account/loginmsa?returnUrl=%3Freferrer%3Delearning%26returnurl%3Dforms%2Fxam120%2F2-layouts%2Fexercise2%2Fimages%2Ffinished-lab.png&amp;referrer=elearning">
+            <div class="button-wrapper">
+                <svg alt="Microsoft" role="presentation" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20">
+                    <g fill="none" fill-rule="evenodd">
+                        <path fill="#F15022" d="M0 0h9v9H0z" style="fill: rgb(241, 80, 34);"></path>
+                        <path fill="#7FBA00" d="M10 0h9v9h-9z" style="fill: rgb(127, 186, 0);"></path>
+                        <path fill="#00A4EF" d="M0 10h9v9H0z" style="fill: rgb(0, 164, 239);"></path>
+                        <path fill="#FFB900" d="M10 10h9v9h-9z" style="fill: rgb(255, 185, 0);"></path>
+                    </g>
+                </svg>
+                <span style="padding-left: 3px;">
+                    Connect with
+                    <span>
+                        <strong>
+                            Microsoft
+                        </strong>
+                    </span>
+                </span>
+            </div>
+        </a>
+    </div>
+
+    <div class="divider">
+        <div class="middle"></div>
+        <div class="or-label">Sign in</div>
+    </div>
+    <div class="col-xs-12 below-divider">
+
+        <p>
+            <small>
+                On April 1, 2018 Xamarin University no longer supports Xamarin Auth; we've switched to Microsoft Authentication. For more information, please see our <a class="no-underline" href="/resources/msa-faq">Migration FAQ</a>.
+            </small>
+        </p>
+        <p>
+            <small>
+                <strong>
+                    Sign in using the Connect with Microsoft button above.
+                </strong>
+            </small>
+        </p>
+    </div>
+
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="text-left">
+            <p>
+                <a class="no-decoration inline privacy-policy" alt="Privacy Policy and Cookies" href="https://privacy.microsoft.com/en-us/privacystatement">Privacy Policy</a>
+                <a class="no-decoration inline terms" alt="Terms of Use" href="https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx">Terms of Use </a>
+            </p>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+
+
+    <!--[if lt IE 9]>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <![endif]-->
+
+    
+
+</body>
+
+</html>
