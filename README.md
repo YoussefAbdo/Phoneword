@@ -1,4 +1,4 @@
 # Phoneword
 Xamarin.Forms Tutorial
 
-<img src="PhoneWordScreenShot.png" alt="Phoneword ScreenShot"  height="42" width="42">
+<img src="Phoneword/PhoneWordScreenShot.png" alt="Phoneword ScreenShot"  height="42" width="42">
